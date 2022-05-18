@@ -1,0 +1,5 @@
+<form method="post">
+    {% csrf_token %}
+    <p>Tem Certeza que desaja remover o cadastro do cliente "{{ object }}"?</p>
+    <input type="submit" value="Confirm">
+</form>
